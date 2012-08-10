@@ -6,8 +6,8 @@
     "apache2::mod_php5",
     "php",
     "php::module_mysql",
-    "php:module_apc",
-	"php:module_memcache",
+    "php::module_apc",
+	"php::module_memcache",
     "phing",
     "mysql::client"
   ]
