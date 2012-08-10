@@ -10,13 +10,14 @@ following packages:
 * PHP
 * Git (client)
 * Phing
+* S3 pear lib
 
 
 Future cookbooks
 -----
 * APC
 * Memcache client
-* S3 pear lib
+
 
 Usage
 -----
