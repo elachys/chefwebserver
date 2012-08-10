@@ -1,0 +1,15 @@
+{
+  "recipes": [
+    "apt", 
+    "git", 
+    "apache2",
+    "apache2::mod_php5",
+    "php",
+    "imagemagick",
+    "php::module_mysql",
+    "php:module_apc"
+	"php:module_memcache"
+    "phing",
+    "mysql::client"
+  ]
+}
