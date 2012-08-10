@@ -7,8 +7,8 @@
     "php",
     "imagemagick",
     "php::module_mysql",
-    "php:module_apc"
-	"php:module_memcache"
+    "php:module_apc",
+	"php:module_memcache",
     "phing",
     "mysql::client"
   ]
