@@ -1,6 +1,6 @@
 file_cache_path "/tmp/vagrant-chef-1"
 cookbook_path ["/home/ubuntu/deploy/chef-repo/cookbooks"]
-role_path nil
+role_path "/var/ubuntu/deploy/chef-roles"
 log_level :info
 
 encrypted_data_bag_secret "/tmp/encrypted_data_bag_secret"

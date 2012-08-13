@@ -4,10 +4,13 @@
     "git", 
     "apache2",
     "apache2::mod_php5",
+    "apache2::mod_rewrite"
     "php",
     "php::module_mysql",
     "php::module_apc",
-	"php::module_memcache",
+    "php::module_memcache",
+    "php::module_curl",
+    "php::module_gd",
     "phing",
     "mysql::client"
   ]
