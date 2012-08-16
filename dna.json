@@ -11,6 +11,7 @@
     "php::module_memcache",
     "php::module_curl",
     "php::module_gd",
+    "php::module_mcrypt",
     "phing",
     "mysql::client"
   ]
