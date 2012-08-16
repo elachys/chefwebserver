@@ -1,12 +1,12 @@
 <VirtualHost *:80>
         ServerAdmin <%= node[:apache][:contact] %>
 
-        DocumentRoot /vagrant/public_html/
+        DocumentRoot /var/www/vhosts/default/
         <Directory />
                 Options FollowSymLinks
                 AllowOverride None
         </Directory>
-        <Directory /vagrant/public_html/>
+        <Directory /var/www/vhosts/default/>
                 Options Indexes FollowSymLinks MultiViews
                 AllowOverride None
                 Order allow,deny
