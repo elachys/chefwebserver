@@ -1,4 +1,4 @@
-Motilo Chef-Web
+Chef-Web
 ============
 This repository contains the basic cookbooks for a LAMP stack. It requires chef to installed on the server.
 
@@ -23,7 +23,7 @@ Usage
 -----
 
 ```
-$ git clone git@github.com:motilotechops/chef-web.git chef-repo
+$ git clone xxxx
 $ cd chef-repo
 sudo chef-solo -c solo.rb -j dna.json
 
