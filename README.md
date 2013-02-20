@@ -29,6 +29,26 @@ sudo chef-solo -c solo.rb -j dna.json
 
 ```
 
+Vagrant Usage
+-----
+
+```
+$ git clone xxxx
+$ cd chef-repo
+$ vagrant box add precise64 http://files.vagrantup.com/precise64.box
+$ vagrant up
+```
+
+You can skip the 3rd step if you already have done it. If you didn't name your
+Linux image as `lucid32` you will have to modify the corresponding line in
+`Vagrantfile`, for example:
+
+```
+config.vm.box = "my-custom-name"
+```
+
+
+
 Credits
 -------
 
