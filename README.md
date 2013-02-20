@@ -25,6 +25,7 @@ Usage
 ```
 $ git clone xxxx
 $ cd chef-repo
+$ git submodule update --init
 sudo chef-solo -c solo.rb -j dna.json
 
 ```
@@ -35,6 +36,7 @@ Vagrant Usage
 ```
 $ git clone xxxx
 $ cd chef-repo
+$ git submodule update --init
 $ vagrant box add precise64 http://files.vagrantup.com/precise64.box
 $ vagrant up
 ```
