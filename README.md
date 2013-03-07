@@ -42,7 +42,7 @@ $ vagrant up
 ```
 
 You can skip the 3rd step if you already have done it. If you didn't name your
-Linux image as `lucid32` you will have to modify the corresponding line in
+Linux image as `precise64` you will have to modify the corresponding line in
 `Vagrantfile`, for example:
 
 ```
