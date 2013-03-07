@@ -34,5 +34,7 @@ Vagrant::Config.run do |config|
     chef.add_recipe "php::module_curl"
     chef.add_recipe "php::module_gd"
     chef.add_recipe "phing"
+    chef.add_recipe "imagemagick"
+    chef.add_recipe "php::module_imagick"
   end
 end

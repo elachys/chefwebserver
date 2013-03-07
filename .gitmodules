@@ -7,3 +7,6 @@
 [submodule "cookbooks/xml"]
 	path = cookbooks/xml
 	url = git://github.com/opscode-cookbooks/xml.git
+[submodule "cookbooks/imagemagick"]
+	path = cookbooks/imagemagick
+	url = git@github.com:opscode-cookbooks/imagemagick.git
