@@ -1,7 +1,8 @@
 {
   "recipes": [
     "apt", 
-    "git", 
+    "git",
+    "imagemagick",
     "apache2",
     "apache2::mod_expires",
     "apache2::mod_rewrite",
@@ -15,6 +16,7 @@
     "php::module_curl",
     "php::module_gd",
     "php::module_mcrypt",
+    "php::module_imagick",
     "phing",
     "mysql::client"
   ]
