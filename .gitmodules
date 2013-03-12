@@ -10,3 +10,6 @@
 [submodule "cookbooks/imagemagick"]
 	path = cookbooks/imagemagick
 	url = git@github.com:opscode-cookbooks/imagemagick.git
+[submodule "cookbooks/phantomjs"]
+	path = cookbooks/phantomjs
+	url = git://github.com/customink-webops/phantomjs.git
