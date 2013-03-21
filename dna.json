@@ -18,6 +18,25 @@
     "php::module_mcrypt",
     "php::module_imagick",
     "phing",
-    "mysql::client"
-  ]
+    "mysql::client",
+    "phantomjs"
+  ],
+  "apache": {
+    "prefork": {
+        "startservers": 5,
+        "minspareservers": 5,
+        "maxspareservers": 7,
+        "serverlimit": 150,
+        "maxclients": 150,
+        "maxrequestsperchild": 400
+    },
+    "worker": {
+        "startservers": 5,
+        "minspareservers": 5,
+        "maxspareservers": 7,
+        "serverlimit": 150,
+        "maxclients": 150,
+        "maxrequestsperchild": 400
+    }
+  }
 }

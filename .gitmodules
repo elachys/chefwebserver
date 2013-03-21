@@ -9,7 +9,10 @@
 	url = git://github.com/opscode-cookbooks/xml.git
 [submodule "cookbooks/imagemagick"]
 	path = cookbooks/imagemagick
-	url = git@github.com:opscode-cookbooks/imagemagick.git
+	url = git://github.com/opscode-cookbooks/imagemagick.git
 [submodule "cookbooks/phantomjs"]
 	path = cookbooks/phantomjs
 	url = git://github.com/customink-webops/phantomjs.git
+[submodule "cookbooks/memcached"]
+	path = cookbooks/memcached
+	url = git://github.com/opscode-cookbooks/memcached.git
