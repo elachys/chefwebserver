@@ -37,6 +37,7 @@ Vagrant Usage
 $ git clone xxxx
 $ cd chef-repo
 $ git submodule update --init
+$ mkdir vhosts
 $ vagrant box add precise64 http://files.vagrantup.com/precise64.box
 $ vagrant up
 ```
